@@ -4,8 +4,8 @@
 
 |Module|Description|Importance|Difficulty|Accept|
 |------|----------|------|------|------|
-|is_primitive|Check if an input polynomial is irreducible|Optional|Easy|O|
-|poly_gen|Generate all 2^n terms of a polynomial in GF(n)|Optional|Hard|O|
+|is_primitive|Check if an input polynomial is irreducible|Optional|Very hard|N|
+|poly_gen|Generate all 2^n terms of a polynomial in GF(n)|Optional|Hard|N|
 |add|Add 2 terms|Basic|Easy|O|
 |mul|Multiply 2 terms|Basic|Medium|O|
 |div|Divide 2 terms|Basic|Medium|O|
