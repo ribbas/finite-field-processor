@@ -98,7 +98,7 @@ end TCL_Generic;
       <a name="SocBusSelection" val=""/>
     </tool>
     <tool name="SocBus">
-      <a name="SocBusIdentifier" val="0x0000017838F10473e3b49b8"/>
+      <a name="SocBusIdentifier" val="0x000001785B90E93A6f849138"/>
     </tool>
     <tool name="Socmem">
       <a name="SocBusSelection" val=""/>
@@ -113,7 +113,7 @@ end TCL_Generic;
       <a name="SocBusSelection" val=""/>
     </tool>
   </lib>
-  <main name="main"/>
+  <main name="div"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -158,136 +158,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="div">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(140,200)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(480,230)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="4" loc="(190,190)" name="ROM">
-      <a name="addrWidth" val="4"/>
-      <a name="appearance" val="logisim_evolution"/>
-      <a name="contents">addr/data: 4 4
-1 2 4 5 7 3 6 1
-</a>
-      <a name="dataWidth" val="4"/>
-    </comp>
-    <comp loc="(410,420)" name="AddSub"/>
-    <comp loc="(410,530)" name="Mult"/>
-    <comp loc="(410,630)" name="Div"/>
-    <wire from="(140,200)" to="(190,200)"/>
-    <wire from="(430,250)" to="(480,250)"/>
-    <wire from="(480,230)" to="(480,250)"/>
-  </circuit>
-  <circuit name="AddSub">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="AddSub"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(230,180)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(230,220)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(390,200)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="1" loc="(350,200)" name="XOR Gate">
-      <a name="width" val="4"/>
-    </comp>
-    <wire from="(230,180)" to="(290,180)"/>
-    <wire from="(230,220)" to="(290,220)"/>
-    <wire from="(350,200)" to="(390,200)"/>
-  </circuit>
-  <circuit name="TwosComp">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="TwosComp"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(210,200)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(350,200)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="3" loc="(300,200)" name="Negator">
-      <a name="width" val="4"/>
-    </comp>
-    <wire from="(210,200)" to="(260,200)"/>
-    <wire from="(300,200)" to="(350,200)"/>
-  </circuit>
-  <circuit name="Mult">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Mult"/>
-    <a name="circuitnamedboxfixedsize" val="true"/>
-    <a name="circuitvhdlpath" val=""/>
-    <a name="clabel" val=""/>
-    <a name="clabelfont" val="SansSerif bold 16"/>
-    <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(140,110)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(140,130)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(270,170)" name="Constant">
-      <a name="value" val="0x7"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(350,160)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="1" loc="(330,160)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="3" loc="(220,120)" name="Adder">
-      <a name="width" val="4"/>
-    </comp>
-    <wire from="(140,110)" to="(180,110)"/>
-    <wire from="(140,130)" to="(180,130)"/>
-    <wire from="(220,120)" to="(280,120)"/>
-    <wire from="(270,170)" to="(300,170)"/>
-    <wire from="(280,120)" to="(280,150)"/>
-    <wire from="(280,150)" to="(300,150)"/>
-    <wire from="(330,160)" to="(350,160)"/>
-  </circuit>
-  <circuit name="Div">
-    <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="Div"/>
+    <a name="circuit" val="div"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
