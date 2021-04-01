@@ -168,20 +168,23 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <comp lib="0" loc="(230,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
+      <a name="label" val="opand1"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(230,220)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="width" val="4"/>
+      <a name="label" val="opand2"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="0" loc="(390,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="result"/>
       <a name="output" val="true"/>
-      <a name="width" val="4"/>
+      <a name="width" val="6"/>
     </comp>
     <comp lib="1" loc="(350,200)" name="XOR Gate">
-      <a name="width" val="4"/>
+      <a name="width" val="6"/>
     </comp>
     <wire from="(230,180)" to="(290,180)"/>
     <wire from="(230,220)" to="(290,220)"/>
