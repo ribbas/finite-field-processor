@@ -181,6 +181,11 @@ end TCL_Generic;
       <a name="label" val="opand2"/>
       <a name="width" val="6"/>
     </comp>
+    <comp lib="0" loc="(200,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="size"/>
+      <a name="width" val="6"/>
+    </comp>
     <comp lib="0" loc="(200,470)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="opcode"/>
@@ -208,7 +213,12 @@ end TCL_Generic;
     </comp>
     <wire from="(200,120)" to="(280,120)"/>
     <wire from="(200,140)" to="(250,140)"/>
+    <wire from="(200,160)" to="(220,160)"/>
     <wire from="(200,470)" to="(700,470)"/>
+    <wire from="(220,160)" to="(220,240)"/>
+    <wire from="(220,240)" to="(220,320)"/>
+    <wire from="(220,240)" to="(310,240)"/>
+    <wire from="(220,320)" to="(310,320)"/>
     <wire from="(250,140)" to="(250,220)"/>
     <wire from="(250,140)" to="(310,140)"/>
     <wire from="(250,220)" to="(250,300)"/>
