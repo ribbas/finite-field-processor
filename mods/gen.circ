@@ -113,7 +113,7 @@ end TCL_Generic;
       <a name="SocBusSelection" val=""/>
     </tool>
   </lib>
-  <main name="main"/>
+  <main name="gen"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -158,9 +158,9 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
     </tool>
   </toolbar>
-  <circuit name="main">
+  <circuit name="gen">
     <a name="appearance" val="logisim_evolution"/>
-    <a name="circuit" val="main"/>
+    <a name="circuit" val="gen"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
@@ -359,9 +359,6 @@ end TCL_Generic;
     </comp>
     <comp lib="3" loc="(1250,390)" name="Shifter">
       <a name="width" val="6"/>
-    </comp>
-    <comp lib="3" loc="(320,450)" name="BitFinder">
-      <a name="type" val="high1"/>
     </comp>
     <comp lib="3" loc="(380,290)" name="BitFinder">
       <a name="type" val="high1"/>
