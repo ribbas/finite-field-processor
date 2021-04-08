@@ -23,36 +23,23 @@
 |`element`|`0`|
 |`polynomial`|`1`|
 
-|ALU operation|Operation code|
-|-------------|--------------|
-|`add`|`000`|
-|`mul`|`001`|
-|`div`|`010`|
-|`log`|`011`|
-|`ld`|`100`|
-|`rst`|`101`|
-|`loop`|`110`|
-|`gen`|`111`|
-
-|Operation|Operation code|
-|---------|--------------|
-|`addp`|`0000`|
-|`mulp`|`0001`|
-|`divp`|`0010`|
-|`log`|`0011`|
-|`add`|`0100`|
-|`mul`|`0101`|
-|`div`|`0110`|
-|`gen`|`0111`|
-|`beq`|`1000`|
-|`noop`|`1111`|
+|ALU operation|Operation code|Description|
+|-------------|--------------|-----------|
+|`add`|`000`|XOR values (e -> p)|
+|`mul`|`001`|Mod add values (e -> e)|
+|`div`|`010`|Mod subtract values (e -> e)|
+|`log`|`011`|Lookup value (e -> p)|
+|`ld`|`100`|Load value into opand1|
+|`rst`|`101`|Reset|
+|`init`|`110`|Initialize polynomial generator constants|
+|`gen`|`111`|Generate polynomial terms|
 
 ||Constant|Opcode|Operand 1|Operand 2|
 |-|--------|------|---------|---------|
 |__Instruction indices__|15|14-12|11-6|5-0|
 
 ## Example instructions
-
+<!-- 
 `addi 4, 6`
 - `addi`: `000`
 - `4`: `000100`
@@ -109,4 +96,45 @@ div 2, 5
 In hexadecimal:
 0x2085
 
+```
+ -->
+
+
+## Example instructions
+
+`addi 4, 6`
+- `addi`: `000`
+- `4`: `000100`
+- `6`: `000110`
+
+```
+init x^3+x^2+1
+110 000000110
+1100 0000 0110
+
+In hexadecimal:
+0xC06
+
+
+gen x^3+x^2+1
+111 000000110
+1110 0000 0110
+
+In hexadecimal:
+0xE06
+
+
+ld 4
+100 000000100
+1000 0000 0011
+
+In hexadecimal:
+0x803
+
+add 4
+000 000000100
+0000 0000 0100
+
+In hexadecimal:
+0x004
 ```
