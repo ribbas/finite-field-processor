@@ -168,16 +168,18 @@ end TCL_Generic;
     <a name="clabelup" val="east"/>
     <comp lib="0" loc="(210,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(350,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="3" loc="(300,200)" name="Negator">
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <wire from="(210,200)" to="(260,200)"/>
     <wire from="(300,200)" to="(350,200)"/>

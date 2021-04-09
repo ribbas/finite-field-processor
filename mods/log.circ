@@ -169,14 +169,16 @@ end TCL_Generic;
     <comp lib="0" loc="(230,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="opand1"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(340,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="result"/>
       <a name="output" val="true"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <wire from="(230,180)" to="(340,180)"/>
   </circuit>

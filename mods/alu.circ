@@ -174,17 +174,20 @@ end TCL_Generic;
     <comp lib="0" loc="(200,120)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="opand1"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(200,140)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="opand2"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(200,160)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="size"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(200,470)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -201,7 +204,8 @@ end TCL_Generic;
       <a name="facing" val="west"/>
       <a name="label" val="result"/>
       <a name="output" val="true"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="12" loc="(530,120)" name="add"/>
     <comp lib="13" loc="(530,280)" name="div"/>
@@ -209,7 +213,7 @@ end TCL_Generic;
     <comp lib="16" loc="(530,360)" name="log"/>
     <comp lib="2" loc="(720,140)" name="Multiplexer">
       <a name="select" val="2"/>
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <wire from="(200,120)" to="(280,120)"/>
     <wire from="(200,140)" to="(250,140)"/>

@@ -169,50 +169,54 @@ end TCL_Generic;
     <comp lib="0" loc="(220,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="opand1"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(220,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="opand2"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(700,290)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="size"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="0" loc="(940,320)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="result"/>
       <a name="output" val="true"/>
-      <a name="width" val="6"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="2" loc="(590,130)" name="Multiplexer">
       <a name="enable" val="false"/>
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="2" loc="(590,250)" name="Multiplexer">
       <a name="enable" val="false"/>
       <a name="selloc" val="tr"/>
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="2" loc="(920,320)" name="Multiplexer">
       <a name="enable" val="false"/>
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="3" loc="(520,190)" name="Comparator">
       <a name="mode" val="unsigned"/>
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="3" loc="(720,190)" name="Subtractor">
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="3" loc="(800,230)" name="Divider">
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <comp lib="3" loc="(860,280)" name="Subtractor">
-      <a name="width" val="6"/>
+      <a name="width" val="9"/>
     </comp>
     <wire from="(220,180)" to="(240,180)"/>
     <wire from="(220,200)" to="(230,200)"/>
