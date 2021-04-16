@@ -198,7 +198,7 @@ end TCL_Generic;
       <a name="facing" val="west"/>
       <a name="label" val="enable"/>
     </comp>
-    <comp lib="0" loc="(830,130)" name="Pin">
+    <comp lib="0" loc="(830,150)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="result"/>
@@ -240,6 +240,6 @@ end TCL_Generic;
     <wire from="(580,140)" to="(680,140)"/>
     <wire from="(700,190)" to="(700,470)"/>
     <wire from="(710,190)" to="(740,190)"/>
-    <wire from="(720,130)" to="(830,130)"/>
+    <wire from="(720,150)" to="(830,150)"/>
   </circuit>
 </project>
