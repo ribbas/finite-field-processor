@@ -116,7 +116,6 @@ end TCL_Generic;
   <lib desc="file#add.circ" name="12"/>
   <lib desc="file#divu.circ" name="13"/>
   <lib desc="file#mul.circ" name="14"/>
-  <lib desc="file#log.circ" name="15"/>
   <main name="alu"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -207,7 +206,7 @@ end TCL_Generic;
       <a name="width" val="9"/>
     </comp>
     <comp lib="12" loc="(530,120)" name="add"/>
-    <comp lib="13" loc="(530,280)" name="div"/>
+    <comp lib="13" loc="(530,300)" name="div"/>
     <comp lib="14" loc="(530,200)" name="mul"/>
     <comp lib="2" loc="(720,150)" name="Multiplexer">
       <a name="select" val="3"/>
@@ -218,25 +217,25 @@ end TCL_Generic;
     <wire from="(200,160)" to="(220,160)"/>
     <wire from="(200,470)" to="(700,470)"/>
     <wire from="(220,160)" to="(220,240)"/>
-    <wire from="(220,240)" to="(220,320)"/>
+    <wire from="(220,240)" to="(220,340)"/>
     <wire from="(220,240)" to="(310,240)"/>
-    <wire from="(220,320)" to="(310,320)"/>
+    <wire from="(220,340)" to="(310,340)"/>
     <wire from="(250,140)" to="(250,220)"/>
     <wire from="(250,140)" to="(310,140)"/>
-    <wire from="(250,220)" to="(250,300)"/>
+    <wire from="(250,220)" to="(250,320)"/>
     <wire from="(250,220)" to="(310,220)"/>
-    <wire from="(250,300)" to="(310,300)"/>
+    <wire from="(250,320)" to="(310,320)"/>
     <wire from="(280,120)" to="(280,200)"/>
     <wire from="(280,120)" to="(310,120)"/>
-    <wire from="(280,200)" to="(280,280)"/>
+    <wire from="(280,200)" to="(280,300)"/>
     <wire from="(280,200)" to="(310,200)"/>
-    <wire from="(280,280)" to="(310,280)"/>
+    <wire from="(280,300)" to="(310,300)"/>
     <wire from="(530,120)" to="(680,120)"/>
     <wire from="(530,200)" to="(550,200)"/>
-    <wire from="(530,280)" to="(580,280)"/>
+    <wire from="(530,300)" to="(580,300)"/>
     <wire from="(550,130)" to="(550,200)"/>
     <wire from="(550,130)" to="(680,130)"/>
-    <wire from="(580,140)" to="(580,280)"/>
+    <wire from="(580,140)" to="(580,300)"/>
     <wire from="(580,140)" to="(680,140)"/>
     <wire from="(700,190)" to="(700,470)"/>
     <wire from="(710,190)" to="(740,190)"/>

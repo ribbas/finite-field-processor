@@ -55,10 +55,10 @@ In hexadecimal:
 
 ld 4
 100 000000100
-1000 0000 0011
+1000 0000 0100
 
 In hexadecimal:
-0x803
+0x804
 
 
 add 4
