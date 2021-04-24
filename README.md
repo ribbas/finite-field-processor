@@ -74,7 +74,8 @@ In hexadecimal:
 ```
 
 #### Load memory value 4 into operand 1
-```ld 4
+```
+ld 4
 100 000000100
 1000 0000 0100
 
