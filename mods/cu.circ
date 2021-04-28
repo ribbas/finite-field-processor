@@ -229,7 +229,7 @@ end TCL_Generic;
     <comp lib="1" loc="(490,220)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(500,340)" name="OR Gate">
+    <comp lib="1" loc="(490,340)" name="OR Gate">
       <a name="inputs" val="3"/>
       <a name="size" val="30"/>
     </comp>
@@ -251,17 +251,17 @@ end TCL_Generic;
     <wire from="(300,100)" to="(300,240)"/>
     <wire from="(300,100)" to="(400,100)"/>
     <wire from="(300,240)" to="(300,330)"/>
-    <wire from="(300,330)" to="(470,330)"/>
+    <wire from="(300,330)" to="(460,330)"/>
     <wire from="(320,130)" to="(320,250)"/>
     <wire from="(320,130)" to="(510,130)"/>
     <wire from="(340,160)" to="(340,260)"/>
     <wire from="(340,160)" to="(510,160)"/>
     <wire from="(340,260)" to="(340,350)"/>
-    <wire from="(340,350)" to="(470,350)"/>
+    <wire from="(340,350)" to="(460,350)"/>
     <wire from="(360,190)" to="(360,270)"/>
     <wire from="(360,190)" to="(510,190)"/>
     <wire from="(360,270)" to="(360,340)"/>
-    <wire from="(360,340)" to="(470,340)"/>
+    <wire from="(360,340)" to="(460,340)"/>
     <wire from="(380,210)" to="(380,280)"/>
     <wire from="(380,210)" to="(460,210)"/>
     <wire from="(400,100)" to="(400,230)"/>
@@ -272,6 +272,6 @@ end TCL_Generic;
     <wire from="(420,280)" to="(420,300)"/>
     <wire from="(420,280)" to="(510,280)"/>
     <wire from="(490,220)" to="(510,220)"/>
-    <wire from="(500,340)" to="(510,340)"/>
+    <wire from="(490,340)" to="(510,340)"/>
   </circuit>
 </project>
